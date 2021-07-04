@@ -2,8 +2,7 @@ apply plugin: 'com.android.application'
 
 android {
     compileSdkVersion 22
-    buildToolsVersion "23.0.2"
-
+    
     defaultConfig {
         applicationId "com.example.daath.travelApp"
         minSdkVersion 16
@@ -34,11 +33,11 @@ dependencies {
     compile files('/home/daath/AndroidStudioProjects/TravelApp/lib/libs/BaiduLBS_Android.jar')
     compile files('/home/daath/AndroidStudioProjects/TravelApp/lib/libs/pushservice-4.6.2.39.jar')
 
-    compile 'com.android.support:appcompat-v7:22.2.1'
+    compile 'com.android.support:appcompat-v7:22.0.1'
     compile 'com.loopj.android:android-async-http:1.4.9'
-    compile 'com.android.support:support-v4:22.2.1'
+    compile 'com.android.support:support-v4:22.0.1'
     compile 'com.android.support:recyclerview-v7:22.2.1'
-    compile 'com.android.support:design:22.2.1'
+    compile 'com.android.support:design:22.0.1'
     compile 'com.github.bumptech.glide:glide:3.7.0'
     compile 'org.greenrobot:greendao:2.2.0'
 
